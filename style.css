@@ -1,0 +1,66 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Estilizando o Cabeçalho */
+h1 {
+    color: #333;
+}
+
+/* Botões personalizados */
+.btn {
+    font-size: 1rem;
+    transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* Estilizando o Formulário */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Estilizando o Rodapé */
+footer {
+    color: #555;
+    font-size: 0.9rem;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+/* Ajustes para o Conteúdo da Tabela */
+.table {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .btn-lg {
+        font-size: 0.9rem;
+    }
+
+    form input {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .table td, 
+    .table th {
+        font-size: 0.8rem;
+    }
+}
